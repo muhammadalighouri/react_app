@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.nav_list {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+.nav_links {
+  text-decoration: none;
+}
+.nav_container {
+  display: grid;
+  grid-template-columns: 1.5fr 3fr;
+  align-items: center;
+}
+nav {
+  justify-self: end;
+}
+
+/* dark  #2B2B2B; */
+/* main  #FF2C9C; */
+/* other  #F2F8FF; */
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video,
+::after,
+::before {
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
